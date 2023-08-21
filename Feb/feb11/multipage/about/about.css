@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 4vh 6vw;
+}
+nav {
+  margin: 0 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  height: 6vh;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav ul li {
+  margin-left: 2vw;
+}
+nav ul li a {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  cursor: pointer;
+}
+a:hover {
+  color: #34c087;
+}
+
+/* Designing the main seection */
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main div {
+  display: flex;
+}
+main h1 {
+  font-size: 36px;
+  color: #34c087;
+}
+main p {
+  font-weight: 400;
+  margin: 20px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: black 0 0 6px 1px;
+}
+.box h1 {
+  font-size: 30px;
+  color: #34c087;
+}
+.box h3 {
+  color: black;
+  line-height: 36px;
+}

@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+body {
+  background-color: #f6f8fa;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./photos/mainBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  position: relative;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+  padding: 20px 60px;
+}
+hr {
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 90px;
+}
+.header-logo {
+  height: 40px;
+}
+nav div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav div ul li a {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 5px 20px;
+}
+nav div ul li a:hover {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 8px 20px;
+  color: black;
+  border-radius: 5px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: #6663e9;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+}
+.header-description {
+  margin: 30px 10vw;
+}
+.header-description h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+}
+.header-description p {
+  color: #fff;
+  margin: 36px 0 36px 0;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* Designing section where we put many Logos */
+.manyLogo {
+  background-color: #fff;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  border-radius: 30px;
+  position: relative;
+  top: -70px;
+}
+.manyLogo img {
+  width: 156px;
+  height: 38px;
+}
+
+/* designing the main section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-tagline {
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 72px;
+  font-size: 30px;
+  margin: 20px;
+}
+.realEstate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin-top: 50px;
+  align-items: center;
+}
+.card-wrapper div img {
+  height: 400px;
+  width: 350px;
+  border-radius: 15px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  width: 90%;
+  position: relative;
+  top: -48px;
+  box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+}
+.product-details button {
+  font-size: 14px;
+  padding: 10px 25px;
+}
+button:hover {
+  background-color: #fff;
+  color: #6663e9;
+  border: 1px solid #6663e9;
+}
+.product-card {
+  margin: 0 28px;
+}
+.product-card1 {
+  margin-bottom: 60px;
+}
+.product-card2 {
+  margin: 30px 0;
+}
+.product-card3 {
+  margin-top: 60px;
+}
+.product-card4 {
+  margin-top: 60px;
+}
+.product-card5 {
+  margin: 30px 0;
+}
+.product-card6 {
+  margin-bottom: 60px;
+}
+.product-card7 {
+  margin-bottom: 60px;
+}
+.product-card8 {
+  margin: 30px 0;
+}
+.product-card9 {
+  margin-top: 60px;
+}
+
+/* Designing first booking section */
+
+.booking-section1 {
+  display: flex;
+  flex-direction: row;
+  width: 98vw;
+  margin: 40px 0;
+  justify-content: center;
+  align-items: center;
+}
+.booking-section1 div:first-child {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+}
+.booking-section1 div img:first-child {
+  height: 500px;
+  position: relative;
+}
+.booking-section1 div img:nth-child(2) {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  position: relative;
+  right: 485px;
+  top: -30px;
+}
+.booking-section1 div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+}
+.booking-section1 div:last-child h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.booking-section1 div:last-child p {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* designing second booking section */
+
+.booking-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.booking-section2 div {
+  width: 50%;
+}
+
+.booking-section2 div:last-child {
+  position: relative;
+}
+
+.booking-section2 div:last-child img:first-child {
+  position: absolute;
+  right: 0;
+  width: 726px;
+  height: 456px;
+  bottom: -220px;
+}
+
+.booking-section2 div:last-child img:last-child {
+  position: absolute;
+  width: 455px;
+  height: 405px;
+  border-radius: 51px;
+  right: 135px;
+  bottom: -110px;
+}
+
+.booking-section2 div:first-child {
+  padding: 0 50px;
+}
+
+.booking-section2 div:first-child h1 {
+  width: 90%;
+}
+.booking-section2 h1 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 0.01em;
+  margin-bottom: 30px;
+}
+
+.booking-section2 p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #585c65;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+
+.booking-section2 button {
+  font-weight: 700;
+}
+
+/* designing Newsletter section */
+.Newsletter {
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain-Newsletter {
+  background-color: #6663e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  padding: 100px;
+  color: #fff;
+  border-radius: 50px;
+}
+.contain-Newsletter h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.contain-Newsletter p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.contain-Newsletter div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.contain-Newsletter div span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #5756c8;
+  padding: 12px 24px;
+  border-radius: 40px;
+  gap: 24px;
+  width: 30vw;
+}
+.Newsletter div span img {
+  background-color: transparent;
+}
+.contain-Newsletter div span input {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+.contain-Newsletter button {
+  background-color: #ffffff;
+  color: #5756c8;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+.contain-Newsletter button:hover {
+  background-color: #5756c8;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* Designing footer section */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 9vw 10vh 9vw;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.social img[alt="footer-logo"] {
+  height: 36px;
+  /* width: 200px; */
+}
+.social div img {
+  height: 30px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.social div p {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* footer right section */
+footer div:last-child {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  height: 100%;
+}
+footer a {
+  color: black;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 18px;
+  font-style: normal;
+  cursor: pointer;
+}
+ul li:first-child a {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+}
+ul li:first-child {
+  margin-bottom: 10px;
+}

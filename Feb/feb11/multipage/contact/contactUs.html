@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <img src="../images/logo.png" alt="logo" class="logo" />
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/aboutUs.html">About us</a></li>
+        <li><a href="./contactUs.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <!-- main -->
+    <main>
+      <section class="main">
+        <h1>Contact Form</h1>
+        <form>
+            <!-- name -->
+          <div class="inp name">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="username"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <!-- email -->
+          <div class="inp email">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="usermail"
+              placeholder="Enter your mail"
+            />
+          </div>
+          <!-- message -->
+          <div class="inp message">
+            <label for="message">Message</label>
+            <input
+              type="text"
+              id="message"
+              name="usermessage"
+              placeholder="Enter your message"
+            />
+          </div>
+          <input type="submit" value="Submit" class="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
