@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    border: 1px solid black;
+    padding: 4vh 8vw;
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: rgb(64, 186, 64);
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}

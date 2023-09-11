@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box {
+  background-color: greenyellow;
+  padding: 10vh 20vw;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid black;
+}
